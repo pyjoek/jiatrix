@@ -4,6 +4,7 @@ Ai intergrated with Terminal.
 ## Install openai
 ## test the Ai with the terminal
 ## for bash or shell alias use this
+    # add this in your rc file [.bashrc, zshrc] or .config/fish/config.fish file
     function jiatrix
         set env_path ~/.jiatrix/bin/activate.fish
         set script_path ~/.jiatrix/jiatrix.py
