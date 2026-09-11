@@ -3,7 +3,7 @@ import os
 import json
 
 client = OpenAI(
-    api_key="API IN READ",
+    api_key="PUT YOUR API HERE FROM GROQ WEBSITE FREE ACCOUNT",
     base_url="https://api.groq.com/openai/v1"
 )
 
