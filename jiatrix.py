@@ -16,7 +16,7 @@ if MODE not in ("secretary", "dev", "sysadmin"):
 
 DEFAULT_MODELS = {"secretary": "qwen3:4b", "dev": "qwen3:4b", "sysadmin": "qwen3:4b"}
 MODEL = os.getenv("AGENT_MODEL", DEFAULT_MODELS[MODE])
-OWNER = os.getenv("AGENT_OWNER", "Joel (pyjoek)")
+OWNER = os.getenv("AGENT_OWNER", "Anonymous user")
 ROOT = pathlib.Path.cwd().resolve()
 HOME = pathlib.Path.home() / ".jiatrix"            # memory lives outside any project
 NOTES, TASKS = HOME / "notes.md", HOME / "tasks.md"
